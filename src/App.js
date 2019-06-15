@@ -50,13 +50,12 @@ class App extends Component {
           </select>
         </h1>
         <p>
-          *warning: these are <em>not</em> meant to be good examples of data visualizations,<br />
-          but just to show the possibility of using D3 and React*
+          possibility of using D3 and React*
         </p>
         <LineChart data={data} />
         <BarChart data={data} />
         <br />
-        <Chart data={data} />
+        {/*<Chart data={data} />*/}
         <RadialChart data={data} />
 
         <p>
